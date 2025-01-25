@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c668a772134d9424ebbafbb687fd7651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duckRigidbody: {fileID: 0}
+  duckRigidbody: {fileID: 1501999430}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
