@@ -205,13 +205,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.09309163, y: -0, z: -0, w: 0.99565756}
-  m_LocalPosition: {x: 0, y: 2.6399999, z: -17.7}
+  m_LocalRotation: {x: 0.47035456, y: -0, z: -0, w: 0.8824775}
+  m_LocalPosition: {x: 0, y: 8.5, z: -7.2}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1501999434}
-  m_LocalEulerAnglesHint: {x: 10.683, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 56.115, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -688,6 +688,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duckRigidbody: {fileID: 1501999430}
+  speed: 5
+  horizontalInput: 0
+  verticalInput: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
