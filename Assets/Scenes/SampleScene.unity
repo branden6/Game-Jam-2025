@@ -2556,7 +2556,7 @@ PrefabInstance:
     - target: {fileID: 6628514127934785095, guid: a21b031050e1345409177a5cf15ec3b4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 9816a193e23274a3e976c0b1ad33ab85, type: 2}
+      objectReference: {fileID: 2100000, guid: a5fe6931b64e0de469d6a1b5b2a23513, type: 2}
     - target: {fileID: 6661250034284431727, guid: a21b031050e1345409177a5cf15ec3b4, type: 3}
       propertyPath: m_Name
       value: BR_Vanity_01
