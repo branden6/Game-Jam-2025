@@ -4,6 +4,9 @@ using UnityEngine;
 public class NewMonoBehaviourScript : MonoBehaviour
 {
     public Rigidbody duckRigidbody;
+    public float speed = 5.0f;
+    private float horizontalInput, verticalInput;
+    private Vector3 inputDirection;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,21 +16,20 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.W))
-        {
-            duckRigidbody.AddForce(Vector3.forward);
-        }
-        if(Input.GetKey(KeyCode.S))
-        {
-            duckRigidbody.AddForce(Vector3.back);
-        }
-        if(Input.GetKey(KeyCode.A))
-        {
-            duckRigidbody.AddForce(Vector3.left);
-        }
-        if(Input.GetKey(KeyCode.D))
-        {
-            duckRigidbody.AddForce(Vector3.right);
-        }
+
+    }
+    private void FixedUpdate()
+    {
+        wasdMovment();
+    }
+
+    private void wasdMovment()
+    {
+        horizontalInput = Input.GetAxisRaw("Horizontal");
+        verticalInput = Input.GetAxisRaw("Vertical");
+
+        inputDirection = new Vector3((int)horizontalInput, 0, (int)verticalInput).normalized;
+
+        duckRigidbody.linearVelocity = inputDirection * speed;
     }
 }
