@@ -406,6 +406,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3233875125769519614, guid: 44121c93bfe91f04cb21dc99a6cde9fc, type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: -9115518086025904957, guid: 4027183750d6d014788b0ca4270d8593, type: 3}
+    - target: {fileID: 3233875125769519614, guid: 44121c93bfe91f04cb21dc99a6cde9fc, type: 3}
+      propertyPath: fireRate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4454989440261638367, guid: 44121c93bfe91f04cb21dc99a6cde9fc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

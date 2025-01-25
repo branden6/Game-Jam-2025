@@ -168,7 +168,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1509845962623574141}
-  sphere: {fileID: 5508076132069136476, guid: 4027183750d6d014788b0ca4270d8593, type: 3}
+  sphere: {fileID: -9115518086025904957, guid: 4027183750d6d014788b0ca4270d8593, type: 3}
+  aimingDir: {x: 0, y: 0, z: 0}
+  velocity: 10
+  fireRate: 1
 --- !u!1 &6733595902018082771
 GameObject:
   m_ObjectHideFlags: 0
