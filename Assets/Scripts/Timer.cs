@@ -18,15 +18,8 @@ public class Timer : MonoBehaviour
     {
         if (TimerOn)
         {
-            if(timeLeft > 0)
-            {
-                timeLeft -= Time.deltaTime;
-                updateTimer(timeLeft);
-            }
-            else
-            {
-                Debug.Log("Time is up");
-            }
+            timeLeft += Time.deltaTime;
+            updateTimer(timeLeft);
         }   
     }
     void updateTimer(float currentTime)
