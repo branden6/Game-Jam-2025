@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public float destroyAfterSeconds =  10f; // Auto-destroy after 10 seconds
+    public float destroyAfterSeconds = 10f; // Auto-destroy after 10 seconds
+    public float damageAmount = 10f; // Amount of damage dealt by the projectile
 
     private void Start()
     {
@@ -16,20 +17,30 @@ public class Projectile : MonoBehaviour
     {
         Debug.Log("Projectile hit something: " + collision.transform.name);  // Log when the projectile hits something
 
+        // Check if the object hit has the "Enemy" tag
         if (collision.transform.CompareTag("Enemy"))
         {
-            Debug.Log("Hit Enemy");
-            Destroy(collision.gameObject); // Destroy the enemy on hit
+            Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damageAmount); // Call TakeDamage method to decrease health
+            }
             Destroy(gameObject); // Destroy the projectile
         }
-        else if (collision.transform.CompareTag("BigEnemy")) {
-            Debug.Log("Hit Enemy");
-            Destroy(collision.gameObject); // Destroy the enemy on hit
+        // Check if the object hit has the "BigEnemy" tag
+        else if (collision.transform.CompareTag("BigEnemy"))
+        {
+            BigEnemy bigEnemy = collision.gameObject.GetComponent<BigEnemy>();
+            if (bigEnemy != null)
+            {
+                bigEnemy.TakeDamage(damageAmount); // Call TakeDamage method to decrease health
+            }
             Destroy(gameObject); // Destroy the projectile
-        } 
+        }
         else
         {
-            //Destroy(gameObject); // Destroy the projectile if it hits anything else
+            // You can handle other collision cases here, if necessary
+            Destroy(gameObject); // Destroy the projectile if it hits something else
         }
     }
 }

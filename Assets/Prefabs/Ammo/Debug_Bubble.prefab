@@ -182,7 +182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07e99660b68888744b2e370334f495b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyAfterSeconds: 10
+  destroyAfterSeconds: 5
+  damageAmount: 10
 --- !u!135 &1447587008670234391
 SphereCollider:
   m_ObjectHideFlags: 0
