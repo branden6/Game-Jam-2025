@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e42ab54c25b644e44a0d540bb410b7ac
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 55528
+  packageName: Delivery Vehicles Pack
+  packageVersion: 1.1.4
+  assetPath: Assets/Gley/Common/Editor/AssetVersion.cs
+  uploadId: 695952

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 25475d0a94cb47348a7bcbc336364818
+timeCreated: 1454839160
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 55528
+  packageName: Delivery Vehicles Pack
+  packageVersion: 1.1.4
+  assetPath: Assets/Gley/DeliveryVehiclesPack/Prefabs/Vehicle02_Piaggio.prefab
+  uploadId: 695952

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 87c12993f94823247a54a8d6e7a56656
+timeCreated: 1454871396
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 55528
+  packageName: Delivery Vehicles Pack
+  packageVersion: 1.1.4
+  assetPath: Assets/Gley/DeliveryVehiclesPack/Animations/Camera.controller
+  uploadId: 695952

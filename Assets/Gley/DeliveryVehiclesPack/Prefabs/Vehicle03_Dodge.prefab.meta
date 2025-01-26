@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f8c20c6b3f45c054da38d190b8c20b44
+timeCreated: 1454839284
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 55528
+  packageName: Delivery Vehicles Pack
+  packageVersion: 1.1.4
+  assetPath: Assets/Gley/DeliveryVehiclesPack/Prefabs/Vehicle03_Dodge.prefab
+  uploadId: 695952
