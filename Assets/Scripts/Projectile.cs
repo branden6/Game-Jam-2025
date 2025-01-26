@@ -7,7 +7,6 @@ public class Projectile : MonoBehaviour
 {
     public float destroyAfterSeconds = 10f; // Auto-destroy after 10 seconds
     public float damageAmount = 10f; // Amount of damage dealt by the projectile
-    public Player_Stats stats;
 
     private void Start()
     {
@@ -26,8 +25,6 @@ public class Projectile : MonoBehaviour
             {
                 enemy.TakeDamage(damageAmount); // Call TakeDamage method to decrease health
             }
-            stats.add_Currency(2);
-            stats.Currency+=2;
             Destroy(gameObject); // Destroy the projectile
         }
         // Check if the object hit has the "BigEnemy" tag
@@ -38,8 +35,6 @@ public class Projectile : MonoBehaviour
             {
                 bigEnemy.TakeDamage(damageAmount); // Call TakeDamage method to decrease health
             }
-            stats.add_Currency(3);
-            stats.Currency+=3;
             Destroy(gameObject); // Destroy the projectile
         }
         else
