@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NewMonoBehaviourScript : MonoBehaviour 
 {
@@ -7,6 +8,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public float speed = 5.0f;
     private float horizontalInput, verticalInput;
     private Vector3 inputDirection;
+    public Player_Stats stats;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     public Transform respawnPoint;
@@ -72,7 +74,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
     }
     void Respawn()
     {
-
+        SceneManager.LoadScene(1);
+        stats.reset();
         duckRigidbody.linearVelocity = Vector3.zero;
         duckRigidbody.angularVelocity = Vector3.zero;
         duckRigidbody.Sleep();
