@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5d148f49169ae4f4e82774ecce26985e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300295
+  packageName: Free Cartoon Toyland Pack
+  packageVersion: 1.0.0
+  assetPath: Assets/CartoonToylandDemo/Scenes/Demo Scene_Profiles/Post Process Volume
+    Profile.asset
+  uploadId: 723730
