@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6fd189338dcbc4840a33deef3e6ba564
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300295
+  packageName: Free Cartoon Toyland Pack
+  packageVersion: 1.0.0
+  assetPath: Assets/CartoonToylandDemo/Textures/Environment/EnvironmentMaterial.mat
+  uploadId: 723730

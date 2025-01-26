@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f1087f5a5da5694b81ebac433be636d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300295
+  packageName: Free Cartoon Toyland Pack
+  packageVersion: 1.0.0
+  assetPath: Assets/CartoonToylandDemo/Scenes/Demo Scene/LightingData.asset
+  uploadId: 723730

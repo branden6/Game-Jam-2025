@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 508dd1e9ab00b2249bdaebb99fe802df
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300295
+  packageName: Free Cartoon Toyland Pack
+  packageVersion: 1.0.0
+  assetPath: Assets/CartoonToylandDemo/Prefabs/Terrain/Floor.prefab
+  uploadId: 723730
