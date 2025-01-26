@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6c90226636ce763469a9af57b063db60
+timeCreated: 1574433505
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 55528
+  packageName: Delivery Vehicles Pack
+  packageVersion: 1.1.4
+  assetPath: Assets/Gley/DeliveryVehiclesPack/Scripts/Version.txt
+  uploadId: 695952
