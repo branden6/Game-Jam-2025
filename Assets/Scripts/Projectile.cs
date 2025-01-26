@@ -22,6 +22,11 @@ public class Projectile : MonoBehaviour
             Destroy(collision.gameObject); // Destroy the enemy on hit
             Destroy(gameObject); // Destroy the projectile
         }
+        else if (collision.transform.CompareTag("BigEnemy")) {
+            Debug.Log("Hit Enemy");
+            Destroy(collision.gameObject); // Destroy the enemy on hit
+            Destroy(gameObject); // Destroy the projectile
+        } 
         else
         {
             //Destroy(gameObject); // Destroy the projectile if it hits anything else

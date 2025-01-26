@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Click_Plane
+  - BigEnemy
   layers:
   - Default
   - TransparentFX

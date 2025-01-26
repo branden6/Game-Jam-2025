@@ -56,19 +56,19 @@ public class NewMonoBehaviourScript : MonoBehaviour
             }
 
         }
-        //if (collision.gameObject.CompareTag("BigEnemy"))
-        //{
-        //    hp -= 1.5f; // Decrease health by 1
-        //    Debug.Log("HP: " + hp);
+        if (collision.gameObject.CompareTag("BigEnemy"))
+        {
+           hp -= 1.5f; // Decrease health by 1
+           Debug.Log("HP: " + hp);
 
-        //    // If health reaches 0, respawn the player
-        //    if (hp <= 0)
-        //    {
-        //        Respawn();
-        //        hp = 3f; // Reset health to full (if desired)
-        //    }
+           // If health reaches 0, respawn the player
+           if (hp <= 1)
+           {
+               Respawn();
+                hp = 3f; // Reset health to full (if desired)
+           }
 
-        //}
+        }
     }
     void Respawn()
     {
