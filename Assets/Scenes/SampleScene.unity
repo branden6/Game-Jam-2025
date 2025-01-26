@@ -240,6 +240,11 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!4 &657978001 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5518797206866076204, guid: 44121c93bfe91f04cb21dc99a6cde9fc, type: 3}
+  m_PrefabInstance: {fileID: 529247451479301474}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,7 +356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6e60d5d93c4bd42ccb590dd3d1173c31, type: 3}
       propertyPath: m_Name
-      value: germenemy_model
+      value: Germ Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6e60d5d93c4bd42ccb590dd3d1173c31, type: 3}
       propertyPath: m_TagString
@@ -370,6 +375,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6e60d5d93c4bd42ccb590dd3d1173c31, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1638439192}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6e60d5d93c4bd42ccb590dd3d1173c31, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1638439193}
   m_SourcePrefab: {fileID: 100100000, guid: 6e60d5d93c4bd42ccb590dd3d1173c31, type: 3}
 --- !u!1 &1274162581
 GameObject:
@@ -552,6 +560,20 @@ CapsuleCollider:
   m_Height: 0.095355466
   m_Direction: 1
   m_Center: {x: -0.0037886612, y: 0.05670662, z: 0.0064217816}
+--- !u!114 &1638439193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638439188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d59d5710d1b42f5858a7622f360140, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObj: {fileID: 657978001}
+  movementSpeed: 1.25
 --- !u!1001 &529247451479301474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -611,6 +633,10 @@ PrefabInstance:
     - target: {fileID: 6733595902018082771, guid: 44121c93bfe91f04cb21dc99a6cde9fc, type: 3}
       propertyPath: m_Name
       value: PlayerObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733595902018082771, guid: 44121c93bfe91f04cb21dc99a6cde9fc, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
