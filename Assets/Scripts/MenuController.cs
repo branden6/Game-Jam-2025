@@ -4,6 +4,7 @@ public class MenuController : MonoBehaviour
 {
 
     public GameObject[] pauseUI; //index 0; button , index1; panel
+    public GameObject[] shopUI;
  
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
