@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 205523520088635193}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.49, z: 0}
+  m_LocalPosition: {x: 0, y: 0.229, z: 0}
   m_LocalScale: {x: 8.920001, y: 8.919999, z: 8.920001}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -210,6 +210,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duckRigidbody: {fileID: 3480608418744258060}
   speed: 1.25
+  respawnPoint: {fileID: 0}
+  hp: 3
 --- !u!65 &8943041913465027741
 BoxCollider:
   m_ObjectHideFlags: 0
