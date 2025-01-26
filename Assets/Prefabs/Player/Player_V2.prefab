@@ -210,6 +210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duckRigidbody: {fileID: 3480608418744258060}
   speed: 1.25
+  stats: {fileID: 11400000, guid: 6caa24e1b8ad53c43ab11142748abe76, type: 2}
   respawnPoint: {fileID: 0}
   hp: 3
 --- !u!65 &8943041913465027741
