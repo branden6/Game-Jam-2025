@@ -18,11 +18,12 @@ public class Timer : MonoBehaviour
     {
         if (TimerOn)
         {
+            
             timeLeft += Time.deltaTime;
             updateTimer(timeLeft);
         }   
     }
-    void updateTimer(float currentTime)
+    public void updateTimer(float currentTime)
     {
         currentTime++;
         float minutes = Mathf.FloorToInt(currentTime / 60);
