@@ -10,7 +10,8 @@ public class shooting : MonoBehaviour
     public float fireRate = 1f; // setting it to zero makes it a lazer beam essentially
     private float nextTimeFireRate = 0f;
     public GameObject Click_Plane;
-    public GameObject mouth;
+    public GameObject shootPoint;
+    public GameObject DuckModel;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,7 +33,7 @@ public class shooting : MonoBehaviour
     {
         Click_Plane.transform.position = transform.position;
         Click_Plane.transform.localScale = new Vector3(cam.orthographicSize * 2f, 1f, cam.orthographicSize * 2f);
-        
+
         // shoot a raycast from the camera through the mouse position.
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
 
@@ -58,9 +59,12 @@ public class shooting : MonoBehaviour
 
             nextTimeFireRate = Time.time + fireRate;
 
-            Rigidbody rb = Instantiate(sphere, mouth.transform.position, Quaternion.identity);
+            Rigidbody rb = Instantiate(sphere, shootPoint.transform.position, Quaternion.identity);
             rb.linearVelocity = aimingDir.normalized * velocity;
         }
+
+        Quaternion Rotation = Quaternion.LookRotation(aimingDir, Vector3.up);
+        DuckModel.transform.rotation = Rotation;
         //need function to ignore player
     }
 }
