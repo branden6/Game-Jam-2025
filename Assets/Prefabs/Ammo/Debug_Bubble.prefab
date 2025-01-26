@@ -184,6 +184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyAfterSeconds: 5
   damageAmount: 10
+  stats: {fileID: 11400000, guid: 6caa24e1b8ad53c43ab11142748abe76, type: 2}
 --- !u!135 &1447587008670234391
 SphereCollider:
   m_ObjectHideFlags: 0
