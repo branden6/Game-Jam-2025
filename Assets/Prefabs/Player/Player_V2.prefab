@@ -217,6 +217,7 @@ MonoBehaviour:
   velocity: 10
   fireRate: 1
   Click_Plane: {fileID: 0}
+  mouth: {fileID: 6467783339704839994}
 --- !u!1 &3407316169433508649
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,3 +636,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6467783339704839994 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7724499077685410327, guid: 3830706ca661e474ebabe388881b2caa, type: 3}
+  m_PrefabInstance: {fileID: 3670645154023118125}
+  m_PrefabAsset: {fileID: 0}
