@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class MenuController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        Time.timeScale = 1;
     }
    
     //pause game
@@ -18,7 +19,10 @@ public class MenuController : MonoBehaviour
         pauseUI[0].SetActive(false);
         pauseUI[1].SetActive(true);
     }
-
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
     //unPause Game
     public void unPause()
     {
