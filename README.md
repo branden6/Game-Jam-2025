@@ -17,7 +17,7 @@ Armed with your trusty bubble-shooter, your mission is simple: blast the germs a
 1. **Move Around**: Use `WASD` to steer your duck through the bath.  
 2. **Shoot Bubbles**: Fire at germs with the left mouse button.  
 3. **Stay Afloat**: Survive as long as you can while defeating waves of germs!
-4. **Destroy small green germs for two points and large purple germs for 3 points.
+4. **Score Points**: Destroy small green germs for 2 points and large purple germs for 3 points.
 
 ## How to Try It Out  
 1. Visit our game on the Global Game Jam site! Once there, download the Game Executable's "ProperQuackdown.zip" and open up Game Jam 2025.exe
