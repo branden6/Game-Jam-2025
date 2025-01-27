@@ -21,5 +21,6 @@ Armed with your trusty bubble-shooter, your mission is simple: blast the germs a
 
 ## How to Try It Out  
 1. Visit our game on the Global Game Jam site! Once there, download the Game Executable's "ProperQuackdown.zip" and open up Game Jam 2025.exe
+GGJ site: https://globalgamejam.org/games/2025/quackdown-4
 
    
